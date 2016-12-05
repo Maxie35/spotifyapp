@@ -12,6 +12,7 @@
     import { MessageComponent }     from './components/messageboard/message.component';
     import { SearchComponent }     from './components/spotify/search/search.component';
     import { ArtistComponent }     from './components/spotify/artist/artist.component';
+    import { AlbumComponent }     from './components/spotify/album/album.component';
     import { SpotifyService }     from './services/spotify.service';
 
     import { ReversePipe }          from './pipes/reverse.pipe';
@@ -31,6 +32,7 @@
         MessageComponent,
         SearchComponent,
         ArtistComponent,
+        AlbumComponent,
         ReversePipe
       ],
       providers: [],

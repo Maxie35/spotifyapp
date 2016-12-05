@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { MessageComponent }  from './components/messageboard/message.component';
 import { SearchComponent }  from './components/spotify/search/search.component';
 import { ArtistComponent }  from './components/spotify/artist/artist.component';
+import { AlbumComponent }  from './components/spotify/album/album.component';
 import { HomepageComponent }  from './components/homepage/homepage.component';
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'home',   component: HomepageComponent },
   { path: 'spotify',   component: SearchComponent },
   { path: 'artist/:id',   component: ArtistComponent },
+  { path: 'album/:id',   component: AlbumComponent },
   { path: 'messages',   component: MessageComponent }
 ];
 
